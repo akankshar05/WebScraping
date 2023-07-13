@@ -16,7 +16,7 @@ columns = [
 ]
 models=[]
 td=[]
-for row in table.findAll('tr')[1:3]:
+for row in table.findAll('tr'):
     if(len(row)==3):
 
         table_data = row.findAll('td')
